@@ -3,6 +3,7 @@ import pMap from 'p-map'
 import { getAllPages } from './get-all-pages'
 import { getSites } from './get-sites'
 import * as types from './types'
+includeNotionIdInUrls: true
 
 export async function getSiteMaps(): Promise<types.SiteMap[]> {
   const sites = await getSites()
@@ -27,7 +28,7 @@ export async function getSiteMaps(): Promise<types.SiteMap[]> {
       }
     },
     {
-      concurrency: 4
+      concurrency: 5
     }
   )
 
