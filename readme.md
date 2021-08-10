@@ -18,6 +18,7 @@ It uses Notion as a CMS, fetching content from Notion and then uses [Next.js](ht
 
 The site is then deployed to [Vercel](http://vercel.com).
 
+
 ## Features
 
 - Setup only takes a few minutes ([single config file](./site.config.js)) 💪
